@@ -1,5 +1,5 @@
 # HYG STAR MAP
-[THIS PROJECT WAS BUILT UPON [](https://github.com/EnguerranVidal/HYG-STAR-MAP)
+- [THIS PROJECT WAS BUILT UPON [](https://github.com/EnguerranVidal/HYG-STAR-MAP)
 <img src="https://user-images.githubusercontent.com/80796115/112481174-05a11700-8d77-11eb-8a1b-f5fc7d1f8d03.PNG" width="500" height="500">
 
  This project's goal is to create a 3D Star map from HYG ( Hypparcos satellite star survey ) data as well as eventually create a HR diagramm and other pretty plots.
