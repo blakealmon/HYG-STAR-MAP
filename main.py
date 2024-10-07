@@ -23,7 +23,7 @@ class HYG_Map():
             print(" Database loaded. ")
             self.data = data
             self.labels = labels
-            self.n_variables = len(labels)
+            self.n_variables = len(labels) 
             self.n_stars = len(data)
         except FileNotFoundError:
             print("'" + txt_file + "' cannot be found in the main directory !")
@@ -81,11 +81,11 @@ class HYG_Map():
                 color_index.append(float(self.data[i][ci]))
         m = len(color_index)
         multiple = int(m / n) + 1
-        cis = []
+        cis = [] 
         mags = []
         names = []
         for i in range(m):
-            if i % multiple == 0:
+            if i % multiple == 0: 
                 cis.append(color_index[i])
                 mags.append(abs_mag[i])
                 luminosity.append(float(self.data[i][lum]))
